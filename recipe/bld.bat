@@ -1,6 +1,7 @@
 rem Create Makefiles
 cmake -G Ninja ^
       -D CMAKE_POLICY_VERSION_MINIMUM=3.5 ^
+      -D CMAKE_CXX_STANDARD=17 ^
       -D BUILD_ZENLIB=OFF ^
       -D BUILD_ZLIB=OFF ^
       -D CMAKE_BUILD_TYPE=Release ^
